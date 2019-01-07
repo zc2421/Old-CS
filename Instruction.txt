@@ -1,0 +1,22 @@
+Instructions:
+
+-To generate public key and private key, use the function
+	generateKeys()
+
+-The public key and private key will be saved to txt files: 
+	'my_elgamal_public_key.txt' and 'my_elgamal_private_key.txt’.
+
+-I included my encrypted message file as 
+	'elgamal_message_encrypted.txt'
+
+-To decrypt my message, use the function
+	elgamalDecrypt('elgamal_message_encrypted.txt', 'my_elgamal_private_key.txt')
+
+
+-To encrypt message using my public key, use the function
+	elgamalEncrypt('message.txt', 'my_elgamal_public_key.txt')
+
+-I also included my original message file as
+	‘message.txt’
+
+I used codes from the course website. I didn’t collaborate with anyone.
